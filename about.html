@@ -2,43 +2,59 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Notre Équipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Équipe | Future Tech</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Future Tech Agency</h1>
+        <h1>Future <span>Tech</span></h1>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">Équipe</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="about.html" class="active">Équipe</a></li>
+                <li><a href="conecte.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container">
-        <h2 style="text-align: center; margin-bottom: 2rem;">Rencontrez l'équipe</h2>
+        <div class="section-header">
+            <h2>Rencontrez l'équipe</h2>
+            <p>Les experts derrière nos solutions innovantes.</p>
+        </div>
         
         <div class="card-grid">
             <div class="card">
-                <h3>Nahrawan Bettache</h3>
-                <p style="color: var(--primary-color);">Project Manager</p>
-                <p>Expert en gestion agile et stratégie digitale.</p>
+                <h3>Ikram Hamidi</h3>
+                <span class="role">Project Manager</span>
+                <p>Expert en gestion agile et stratégie digitale avec 10 ans d'expérience.</p>
             </div>
 
             <div class="card">
-                <h3>Amina Debieb</h3>
-                <p style="color: var(--primary-color);">Lead Developer</p>
-                <p>Spécialiste Full-stack et architecture logicielle.</p>
+                <h3>Riham Soualhi</h3>
+                <span class="role">Lead Developer</span>
+                <p>Spécialiste Full-stack, passionnée par l'architecture logicielle propre.</p>
+            </div>
+
+            <div class="card">
+                <h3>Amina DEbieb</h3>
+                <span class="role">UI/UX Designer</span>
+                <p>Créatif obsédé par l'ergonomie et l'expérience utilisateur fluide.</p>
+            </div>
+
+            <div class="card">
+                <h3>Nahrawan Bettache</h3>
+                <span class="role">Digital Marketer</span>
+                <p>Experte en SEO et growth hacking pour maximiser la visibilité.</p>
             </div>
 
             <div class="card">
                 <h3>Slama Maria</h3>
-                <p style="color: var(--primary-color);">UI/UX Designer</p>
-                <p>Passionné par l'expérience utilisateur créative.</p>
+                <span class="role">DevOps Engineer</span>
+                <p>Spécialiste cloud (AWS/Azure) assurant la sécurité et la performance.</p>
             </div>
         </div>
     </main>
